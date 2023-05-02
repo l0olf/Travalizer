@@ -8,7 +8,9 @@
     <title>Travalizer</title>
     <link rel="shortcut icon" href="/img/Union.png" type="image/x-icon">
     <!-- LINK CSS -->
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/Travalizer/css/style.css">
+    <!-- LINK ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <!-- LINK FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,7 +23,7 @@
         <div class="container1 tema-claro">
             <div class="info">
                 <div class="logo">
-                    <img class="logo-img tema-claro" src="/img/Union.png" alt="">
+                    <img class="logo-img tema-claro" src="/Travalizer/img/Union.png" alt="">
                     <h1 class="nome-logo tema-claro">Travalizer</h1>
                 </div>
                 <div class="text">
@@ -30,7 +32,7 @@
                 </div>
                 <form class="form">
                     <div class="input">
-                        <label class="email-label tema-claro" for="email">Email:</label>
+                        <label class="email-label tema-claro" for="email">User:</label>
                         <br>
                         <input class="email tema-claro" type="email" name="email" id="email">
                     </div>
@@ -40,6 +42,10 @@
                         <input class="password tema-claro" type="password" name="password" id="password">
                     </div>
                 </form>
+
+                    <div class="error errada">
+                        <p class="wrong-password " id="wrong-password">*Email e(ou) senha incorreto(s)</p>
+                    </div>
 
                 <div class="remember-forgot">
                     <div class="remember">
@@ -52,18 +58,29 @@
                 </div>
 
                 <div class="btns">
-                    <button class="btn1 tema-claro">Login</button>
+                    <button onclick="entrar()" id="login" class="btn1 tema-claro">Login</button>
                     <button class="btn2 tema-claro">Sing Up</button>
+                </div>
+                <div class="or">    
+                    <div class="outher">
+                        <p class="with tema-claro">Or, Login with</p>
+                    </div>
+                    <div class="outhers">
+                        <a href="#" class="outras-maneiras tema-claro">facebook</a>
+                        <a href="#" class="outras-maneiras tema-claro">Google</a>
+                        <a href="#" class="outras-maneiras tema-claro">Linked in</a>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="container2 tema-claro">
-            <img src="/img/day66travel.png" alt="">
+            <img src="/Travalizer/img/day66travel.png" alt="">
+            <i class="bi bi-brightness-high-fill"><input type="checkbox" name="tema" id="btnTema"></i>
         </div>
     </div>
 
     <!-- LINK JS -->
-    <script src="/js/script.js"></script>
+    <script src="/Travalizer/js/script.js"></script>
 </body>
 
 </html>

@@ -40,7 +40,6 @@ body.tema-claro{
 
     margin: 0 auto;
     width: 80%;
-    background-color: aliceblue;
     height: 500px;
 }
 
@@ -105,6 +104,20 @@ input.tema-claro{
     font-weight: 400;
 
 }
+
+.error .wrong-password{
+
+    color: #ff4343;
+    font-size: 11px;
+
+}
+
+.error.errada{
+
+    display: none;
+}
+
+
 
 input.tema-claro,textarea:enabled{
 
@@ -188,6 +201,40 @@ input.tema-claro,textarea:enabled{
     color: #029664;
     font-weight: 600;
     cursor: pointer;
+}
+
+.or{
+
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.or .outher .with{
+
+    font-size: 13px;
+    font-weight: 500;
+    color: #355B3E;
+}
+
+.or .outhers{
+
+    gap: 15px;
+    display: flex;
+}
+
+.or .outhers .outras-maneiras{
+
+    color: #029664;
+    font-size: 12px;
+    font-weight: 400;
+    cursor: pointer;
+
+}
+
+.or .outhers .outras-maneiras:hover{
+
+    text-decoration: underline;
 }
 
 
